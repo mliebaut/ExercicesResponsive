@@ -1,0 +1,49 @@
+/*-----------------------------------------------------------------*/
+/*-----------------------------Généralités-------------------------*/
+/*-----------------------------------------------------------------*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------*/
+/*--------------------------NAVIGATION-----------------------------*/
+/*-----------------------------------------------------------------*/
+
+header {
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0px 50px 0px 50px;
+    background: rgb(255,0,232);
+    background: linear-gradient(126deg, rgba(255,0,232,0.19931722689075626) 0%, rgba(255,145,0,0.5410539215686274) 100%);
+    width: 500px;
+    margin: 150px auto;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+}
