@@ -52,4 +52,7 @@
         width: calc(1200%/12);
     }
 
+    .bloc-article {
+        margin-left: calc(50% - 221px);
+    }
 }
