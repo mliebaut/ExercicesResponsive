@@ -17,11 +17,21 @@ h1 {
 }
 
 .row {
+    margin: 0;
     width: 100%;
 }
 
 .row > * {
     display: inline-block;
+}
+
+/*---------------------------------------------------------------*/
+/*------------------------MAINIMAGE------------------------------*/
+/*---------------------------------------------------------------*/
+
+#main-sabrina {
+    width: 450px;
+    margin-left: calc(50% - 225px);
 }
 
 /*---------------------------------------------------------------*/
@@ -48,7 +58,7 @@ h1 {
 /*---------------------------------------------------------------*/
 
 #introduction {
-    margin: 25px;
+    padding: 25px;
     text-align: justify;
 }
 
@@ -57,9 +67,18 @@ h1 {
 /*---------------------------------------------------------------*/
 
 .bloc-article {
+    margin: 10px;
     background-color: grey;
+    border: 1px solid black;
 }
 
-#icon-sabrina {
+.icon-sabrina {
     width: 200px;
+    float: left;
+    margin: 10px
+}
+
+.paragraphe1, .paragraphe2, .paragraphe3 {
+    text-align: justify;
+    margin: 10px;
 }
