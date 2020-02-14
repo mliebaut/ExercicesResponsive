@@ -20,7 +20,9 @@ h1 {
     display: inline-block;
 }
 
-
+#container {
+    font-size: 0;
+}
 
 /*---------------------------------------------------------------*/
 /*------------------------SMALL SCREEN---------------------------*/
@@ -74,6 +76,18 @@ h1 {
 
     .col-sm-12 {
         width: calc(1200%/12);
+    }
+
+    .container-child {
+        font-size: 16px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 10px;
+
+    }
+
+    #introduction {
+        margin;
     }
 }
 
