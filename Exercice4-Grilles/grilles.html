@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./grilles.css">
+    <link rel="stylesheet" href="./small-screen.css">
+    <link rel="stylesheet" href="./medium-screen.css">
+    <link rel="stylesheet" href="./large-screen.css">
     <title>Monsite Perso</title>
 </head>
 <body class="container">
@@ -13,15 +16,17 @@
         </h1>
     </div>
     <div class="row">
-        <img src="./img/sabrina.jpg" alt="sabrina la sorcière" class="col-sm-12 col-md-12 col-lg-12">
+        <div class="col-sm-2 col-md-2 col-lg-2"></div>
+        <img id="main-sabrina" src="./img/sabrina.jpg" alt="sabrina la sorcière" class="col-sm-8 col-md-8 col-lg-8">
+        <div class="col-sm-2 col-md-2 col-lg-2"></div>
     </div>
-    <div id="container" class="row">
-        <p class="col-sm-4 container-child">test 1</p>
-        <p class="col-sm-4 container-child">test 2</p>
-        <p class="col-sm-4 container-child">test 3</p>
+    <div id="menu-bouton-test" class="row">
+        <p class="test-size">test 1</p>
+        <p class="test-size">test 2</p>
+        <p class="test-size">test 3</p>
     </div>
     <div class="row">
-        <h2 class="col-sm-12">
+        <h2 class="col-sm-12 col-md-12 col-lg-12">
             Bienvenue sur mon super site perso
         </h2>
     </div>
@@ -31,13 +36,13 @@
         </p>
     </div>
     <div class="row">
-        <h2 class="col-sm-12">
+        <h2 class="col-sm-12 col-md-12 col-lg-12">
             Articles
         </h2>
     </div>
     <div class="row">
-        <div class="col-sm-12">
-            <img src="../Exercice4-Grilles/img/sabrina-icon.png" alt="icone de sabrina">
+        <div class="bloc-article col-sm-12">
+            <img id="icon-sabrina" src="../Exercice4-Grilles/img/sabrina-icon.png" alt="icone de sabrina">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sint autem commodi obcaecati similique vitae voluptatibus velit facilis, a voluptates deserunt? Incidunt voluptatem alias quas ipsum est, pariatur quaerat similique.
             </p>

@@ -1,3 +1,7 @@
+/*---------------------------------------------------------------*/
+/*------------------------GENERALITES----------------------------*/
+/*---------------------------------------------------------------*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,183 +24,42 @@ h1 {
     display: inline-block;
 }
 
-#container {
-    font-size: 0;
+/*---------------------------------------------------------------*/
+/*------------------------NAVIGATION-----------------------------*/
+/*---------------------------------------------------------------*/
+
+#menu-bouton-test {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.test-size {
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    margin: 0 15px 10px;
 }
 
 /*---------------------------------------------------------------*/
-/*------------------------SMALL SCREEN---------------------------*/
+/*------------------------INTRODUCTION---------------------------*/
 /*---------------------------------------------------------------*/
 
-@media screen and (min-width: 700px) and (max-width: 900px) {
-
-    .col-sm-1 {
-        width: calc(100%/12);
-    }
-
-    .col-sm-2 {
-        width: calc(200%/12);
-    }
-
-    .col-sm-3 {
-        width: calc(300%/12);
-    }
-
-    .col-sm-4 {
-        width: calc(400%/12);
-    }
-
-    .col-sm-5 {
-        width: calc(500%/12);
-    }
-
-    .col-sm-6 {
-        width: calc(600%/12);
-    }
-
-    .col-sm-7 {
-        width: calc(700%/12);
-    }
-
-    .col-sm-8 {
-        width: calc(800%/12);
-    }
-
-    .col-sm-9 {
-        width: calc(900%/12);
-    }
-
-    .col-sm-10 {
-        width: calc(1000%/12);
-    }
-
-    .col-sm-11 {
-        width: calc(1100%/12);
-    }
-
-    .col-sm-12 {
-        width: calc(1200%/12);
-    }
-
-    .container-child {
-        font-size: 16px;
-        text-align: center;
-        border: 1px solid black;
-        border-radius: 10px;
-
-    }
-
-    #introduction {
-        margin;
-    }
+#introduction {
+    margin: 25px;
+    text-align: justify;
 }
 
 /*---------------------------------------------------------------*/
-/*------------------------MEDIUM SCREEN--------------------------*/
+/*------------------------BLOC ARTICLE---------------------------*/
 /*---------------------------------------------------------------*/
 
-@media screen and (min-width: 901px) and (max-width: 1200px) {
-
-    .col-md-1 {
-        width: calc(100%/12);
-    }
-
-    .col-md-2 {
-        width: calc(200%/12);
-    }
-
-    .col-md-3 {
-        width: calc(300%/12);
-    }
-
-    .col-md-4 {
-        width: calc(400%/12);
-    }
-
-    .col-md-5 {
-        width: calc(500%/12);
-    }
-
-    .col-md-6 {
-        width: calc(600%/12);
-    }
-
-    .col-md-7 {
-        width: calc(700%/12);
-    }
-
-    .col-md-8 {
-        width: calc(800%/12);
-    }
-
-    .col-md-9 {
-        width: calc(900%/12);
-    }
-
-    .col-md-10 {
-        width: calc(1000%/12);
-    }
-
-    .col-md-11 {
-        width: calc(1100%/12);
-    }
-
-    .col-md-12 {
-        width: calc(1200%/12);
-    }
+.bloc-article {
+    background-color: grey;
 }
 
-/*---------------------------------------------------------------*/
-/*-------------------------LARGE SCREEN--------------------------*/
-/*---------------------------------------------------------------*/
-
-@media screen and (min-width: 1201px) {
-
-    .col-lg-1 {
-        width: calc(100%/12);
-    }
-
-    .col-lg-2 {
-        width: calc(200%/12);
-    }
-
-    .col-lg-3 {
-        width: calc(300%/12);
-    }
-
-    .col-lg-4 {
-        width: calc(400%/12);
-    }
-
-    .col-lg-5 {
-        width: calc(500%/12);
-    }
-
-    .col-lg-6 {
-        width: calc(600%/12);
-    }
-
-    .col-lg-7 {
-        width: calc(700%/12);
-    }
-
-    .col-lg-8 {
-        width: calc(800%/12);
-    }
-
-    .col-lg-9 {
-        width: calc(900%/12);
-    }
-
-    .col-lg-10 {
-        width: calc(1000%/12);
-    }
-
-    .col-lg-11 {
-        width: calc(1100%/12);
-    }
-
-    .col-lg-12 {
-        width: calc(1200%/12);
-    }
+#icon-sabrina {
+    width: 200px;
 }
