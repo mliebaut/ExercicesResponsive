@@ -2,7 +2,7 @@
 /*------------------------SMALL SCREEN---------------------------*/
 /*---------------------------------------------------------------*/
 
-@media screen and (min-width: 700px) and (max-width: 900px) {
+@media screen and (min-width: 700px) {
 
     .col-sm-1 {
         width: calc(100%/12);
@@ -52,7 +52,45 @@
         width: calc(1200%/12);
     }
 
-    .bloc-article {
-        margin-left: calc(50% - 221px);
+/*---------------------------------------------------------------*/
+/*---------------------------OFFSET------------------------------*/
+/*---------------------------------------------------------------*/
+
+    .offset-sm-1 {
+        margin-left: calc(100%/12);
     }
+    .offset-sm-2 {
+        margin-left: calc(200%/12);
+    }
+    .offset-sm-3 {
+        margin-left: calc(300%/12);
+    }
+    .offset-sm-4 {
+        margin-left: calc(400%/12);
+    }
+    .offset-sm-5 {
+        margin-left: calc(500%/12);
+    }
+    .offset-sm-6 {
+        margin-left: calc(600%/12);
+    }
+    .offset-sm-7 {
+        margin-left: calc(700%/12);
+    }
+    .offset-sm-8 {
+        margin-left: calc(800%/12);
+    }
+    .offset-sm-9 {
+        margin-left: calc(900%/12);
+    }
+    .offset-sm-10 {
+        margin-left: calc(1000%/12);
+    }
+    .offset-sm-11 {
+        margin-left: calc(1100%/12);
+    }
+    .offset-sm-12 {
+        margin-left: calc(1200%/12);
+    }
+
 }

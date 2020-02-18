@@ -25,6 +25,14 @@ h1 {
     display: inline-block;
 }
 
+.font-size-0 {
+    font-size: 0;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
 /*---------------------------------------------------------------*/
 /*------------------------MAINIMAGE------------------------------*/
 /*---------------------------------------------------------------*/
@@ -53,6 +61,28 @@ h1 {
     margin: 0 15px 10px;
 }
 
+#img-burger-menu {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url('./img/burger-menu.png');
+    background-size: 100%;
+}
+
+#burger-menu {
+    display: none;
+}
+
+#menu-bouton-test {
+    display: none;
+}
+
+#burger-menu:checked ~ #menu-bouton-test {
+    display: flex;
+}
+
 /*---------------------------------------------------------------*/
 /*------------------------INTRODUCTION---------------------------*/
 /*---------------------------------------------------------------*/
@@ -69,8 +99,9 @@ h1 {
 .bloc-article {
     margin: 10px;
     border-radius: 5px;
-    background-color: grey;
+    background-color: rgb(173, 143, 255);
     border: 1px solid black;
+ 
 }
 
 .icon-sabrina {
