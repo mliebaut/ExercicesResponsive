@@ -4,6 +4,14 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 /*----------------------------------------------------------------*/
@@ -27,25 +35,45 @@ li {
     list-style: none;
 }
 
-
 /*----------------------------------------------------------------*/
 /*----------------------------Body--------------------------------*/
 /*----------------------------------------------------------------*/
 
 section {
-
+    font-size: large;
+    border: 1px solid black;
+    width: 200px;
+    margin: auto;
 }
 
-#section1 {
-
-}
 
 @media screen and (min-width: 640px) {
-
+    section {
+        width: calc(100% / 4);
+        float: left;
+    }
 }
 
 @media screen and (min-width: 0px) and (max-width: 799px) {
     header {
         display: none;
+    }
+}
+
+/*----------------------------------------------------------------*/
+/*----------------------------Footer------------------------------*/
+/*----------------------------------------------------------------*/
+
+
+ footer {
+    position: absolute;
+    display: none;
+    margin: 0;
+    bottom: 0;
+}
+
+@media print {
+    footer {
+        display: block;
     }
 }
