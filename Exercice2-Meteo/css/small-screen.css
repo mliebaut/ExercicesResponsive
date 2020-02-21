@@ -2,7 +2,7 @@
 /*------------------------SMALL SCREEN---------------------------*/
 /*---------------------------------------------------------------*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 10px) {
 
     .col-sm-1 {
         width: calc(100%/12);
